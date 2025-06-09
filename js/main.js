@@ -5,28 +5,28 @@ const projects = [
     description: "Live weather updates with SVG animations.",
     image: "img/weather.jpg",
     live: "/weather-app/",
-    repo: "https://github.com/GorgeDimancev/weather-app"
+    repo: "https://github.com/GorgeDimancev/Portfolio.git"
   },
   {
     title: "Budget App",
     description: "Track expenses with filters and charts.",
     image: "img/budget.jpg",
     live: "/budget-app/",
-    repo: "https://github.com/GorgeDimancev/budget-app"
+    repo: "https://github.com/GorgeDimancev/Portfolio.git"
   },
   {
     title: "E-commerce Shop",
     description: "Modern React store with product filtering.",
     image: "img/shop.jpg",
     live: "/ecommerce-shop/",
-    repo: "https://github.com/GorgeDimancev/ecommerce-shop"
+    repo: "https://github.com/GorgeDimancev/Portfolio.git"
   },
   {
     title: "Netflix Clone",
     description: "Movie browser UI with real API integration.",
     image: "img/netflix.jpg",
     live: "/netflix-clone/",
-    repo: "https://github.com/GorgeDimancev/netflix-clone"
+    repo: "https://github.com/GorgeDimancev/Portfolio.git"
   }
 ];
 
