@@ -7,17 +7,23 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <nav class="side-nav">
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
+  <div class="top-nav">
+     <div class="nav-container">
+    <div class="logo">Gjorge Dimanchev</div>
+    <div id="hamburger">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  </div>
 
   <header class="hero">
     <h1>Gjorge Dimanchev</h1>
     <p>Front-End Developer</p>
-    <p>Born in Gevgelija, North Macedonia — Living in Urbach 73660, Germany</p>
+    <p>Born in Gevgelija, North Macedonia — Living in Urbach, Germany</p>
   </header>
 
   <section id="about" class="info-section">
@@ -25,7 +31,7 @@
     <p>I’m a passionate front-end developer focused on modern design, performance, and user experience.</p>
   </section>
 
-  <section id="projects" class="projects">
+  <section id="projects info-section" class="projects">
     <h2>My Projects</h2>
     <div class="project-list" id="projects"></div>
   </section>
