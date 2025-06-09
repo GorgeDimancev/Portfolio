@@ -1,0 +1,107 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+.navbar {
+  background: #141414;
+  padding: 20px;
+}
+
+.logo {
+  color: #e50914;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.movie-row h2 {
+  margin: 0 0 10px 10px;
+}
+
+.movie-row-list {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.movie-row-list::-webkit-scrollbar {
+  display: none;
+}
+
+.movie-card {
+  width: 160px;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.movie-card:hover {
+  transform: scale(1.1);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0; top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #222;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.spinner {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 -30px;
+  border: 6px solid #ccc;
+  border-top: 6px solid #e50914;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  z-index: 1000;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
